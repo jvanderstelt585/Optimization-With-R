@@ -1,5 +1,6 @@
 
 # Clear the global environment
+rm(list=ls())
 
 # install.packages('lpSolve) if you don't have it
 library(lpSolve)
